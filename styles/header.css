@@ -1,0 +1,111 @@
+.header{
+  /* background-color: gray; */
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.header-left{
+  /* background-color: aqua; */
+  flex: 1;
+}
+.linkedin-logo{
+  width: 104px;
+  margin-left: 67px;
+  margin-top: 24px;
+
+}
+
+
+.header-middle{
+flex: 4.7;
+padding-left: 295px;
+/* background-color: rebeccapurple; */
+padding-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.middle-menus{
+  /* background-color: rgb(0, 255, 55); */
+  width: 60px;
+  margin-right: 17px;
+  text-align: center;
+  opacity: 0.5;
+}
+.middle-menus-getTheApp{
+  height: 65px;
+  padding-top: 18px;
+
+  width: 87px;
+  text-align: center;
+  opacity: 0.5;
+  border-right: 1px;
+  border-left: 1px;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: rgb(206, 206, 206);
+}
+.middle-menus:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.middle-menus-getTheApp:hover{
+  opacity: 0.8;
+  border-color: rgb(225, 224, 224);
+  cursor: pointer;
+}
+.middle-logos{
+  height: 21px;
+}
+.logo-info{
+  font-size: 12px;
+  top: 35px;
+  margin: 0;
+}
+
+
+.header-right{
+  /* background-color: brown; */
+  width: 310px;
+}
+.join-button{
+  width: 137px;
+  height: 55px;
+  margin-top: 12px;
+  margin-left: 7px;
+  border-radius: 65px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.8;
+  background-color: white;
+}
+.join-button:hover{
+  background-color: rgb(247, 243, 243);
+  cursor: pointer;
+}
+.signIn-button{
+  margin-left: 5px;
+  height: 51px;
+  width: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: white;
+  color: rgb(39, 90, 255);
+  border-radius: 28px;
+  border-width: 1px;
+  border-color: rgb(39, 90, 255);
+}
+.signIn-button:hover{
+  background-color:  rgb(236, 240, 254);;
+  cursor: pointer;
+}
+
+
+
+
